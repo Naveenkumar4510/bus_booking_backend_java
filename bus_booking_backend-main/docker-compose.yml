@@ -1,5 +1,3 @@
-
-
 services:
   mongo:
     image: mongo
@@ -16,6 +14,6 @@ services:
     ports:
       - "9090:9090"
     env_file:
-      - .env
+      - ./.env  # Update this line to reflect the correct path
     depends_on:
       - mongo

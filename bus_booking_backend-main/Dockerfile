@@ -7,6 +7,7 @@ WORKDIR /app
 # Copy the application JAR file into the container
 COPY bus_booking_backend-main/target/BusBooking-0.0.1-SNAPSHOT.jar /app/BusBooking.jar
 
+
 # Expose the port your application will run on
 EXPOSE 9090
 
